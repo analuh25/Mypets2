@@ -10,9 +10,12 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="#2c2c2c" />
+        android:src="#2c2c2c"
+
+        />
 
     <EditText
+        android:id="@+id/Usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira o usuário"
@@ -20,15 +23,21 @@
         android:maxLength="100" />
 
     <EditText
+        android:id="@+id/senha"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Insira a Senha"
+        android:inputType="numberPassword"
+        android:maxLength="6"/>
 
     <Button
+        android:id="@+id/Entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Entrar" />
 
     <Button
+        android:id="@+id/btnSair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sair" />
